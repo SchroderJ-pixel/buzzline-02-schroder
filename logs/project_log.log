@@ -140,3 +140,134 @@
 2025-08-31 15:54:26 | INFO | Kafka producer closed.
 2025-08-31 15:54:26 | INFO | END producer.
 2025-08-31 16:25:16 | WARNING | Consumer interrupted by user.
+2025-09-01 09:56:41 | INFO | Logging to file: logs/project_log.log
+2025-09-01 09:56:41 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-01 09:56:41 | INFO | START consumer (schroder).
+2025-09-01 09:56:41 | INFO | Kafka topic: buzzline
+2025-09-01 09:56:41 | INFO | Kafka consumer group id: schroder_group
+2025-09-01 09:56:41 | INFO | Consumer: Topic 'buzzline' and group 'schroder_group'...
+2025-09-01 09:56:41 | INFO | Kafka broker address: localhost:9092
+2025-09-01 09:56:41 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='schroder_group'.
+2025-09-01 09:56:41 | INFO | Kafka consumer created successfully.
+2025-09-01 09:56:41 | INFO | Polling messages from topic 'buzzline'...
+2025-09-01 09:57:36 | INFO | Logging to file: logs/project_log.log
+2025-09-01 09:57:36 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-01 09:57:36 | INFO | START dungeon producer (schroder).
+2025-09-01 09:57:36 | INFO | Kafka broker address: localhost:9092
+2025-09-01 09:57:37 | ERROR | Error checking Kafka: NodeNotReadyError
+2025-09-01 09:57:37 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-09-01 10:03:37 | INFO | Logging to file: logs/project_log.log
+2025-09-01 10:03:37 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-01 10:03:37 | INFO | START dungeon producer (schroder).
+2025-09-01 10:03:37 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:03:37 | ERROR | Error checking Kafka: NodeNotReadyError
+2025-09-01 10:03:37 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-09-01 10:39:16 | INFO | Logging to file: logs/project_log.log
+2025-09-01 10:39:16 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-01 10:39:16 | INFO | START consumer.
+2025-09-01 10:39:16 | INFO | Kafka topic: buzzline
+2025-09-01 10:39:16 | INFO | Kafka consumer group id: default_group
+2025-09-01 10:39:16 | INFO | Consumer: Topic 'buzzline' and group 'default_group'...
+2025-09-01 10:39:16 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:39:16 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='default_group'.
+2025-09-01 10:39:16 | INFO | Kafka consumer created successfully.
+2025-09-01 10:39:16 | INFO | Polling messages from topic 'buzzline'...
+2025-09-01 10:39:25 | INFO | Logging to file: logs/project_log.log
+2025-09-01 10:39:25 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-01 10:39:25 | INFO | START producer.
+2025-09-01 10:39:25 | INFO | Loading environment variables from .env file...
+2025-09-01 10:39:25 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:39:26 | ERROR | Error checking Kafka: NodeNotReadyError
+2025-09-01 10:39:26 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-09-01 10:49:00 | WARNING | Consumer interrupted by user.
+2025-09-01 10:49:00 | INFO | Kafka consumer for topic 'buzzline' closed.
+2025-09-01 10:49:00 | INFO | END consumer for topic 'buzzline' and group 'default_group'.
+2025-09-01 10:49:02 | INFO | Logging to file: logs/project_log.log
+2025-09-01 10:49:02 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-01 10:49:02 | INFO | START consumer (schroder).
+2025-09-01 10:49:02 | INFO | Kafka topic: buzzline
+2025-09-01 10:49:02 | INFO | Kafka consumer group id: schroder_group
+2025-09-01 10:49:02 | INFO | Consumer: Topic 'buzzline' and group 'schroder_group'...
+2025-09-01 10:49:02 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:49:02 | INFO | Creating Kafka consumer. Topic='buzzline' and group ID='schroder_group'.
+2025-09-01 10:49:02 | INFO | Kafka consumer created successfully.
+2025-09-01 10:49:02 | INFO | Polling messages from topic 'buzzline'...
+2025-09-01 10:49:54 | INFO | Logging to file: logs/project_log.log
+2025-09-01 10:49:54 | INFO | Log sanitization enabled, personal info will be removed
+2025-09-01 10:49:54 | INFO | START dungeon producer (schroder).
+2025-09-01 10:49:54 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:49:54 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 0, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': 'izByUlFxSRGoquC0cRo7Ow', 'controller_id': 0}
+2025-09-01 10:49:54 | INFO | Kafka topic: buzzline
+2025-09-01 10:49:54 | INFO | Message interval: 1.0 seconds
+2025-09-01 10:49:54 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:49:54 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-09-01 10:49:54 | INFO | Kafka producer successfully created.
+2025-09-01 10:49:54 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:49:54 | INFO | Topic 'buzzline' already exists. Clearing it out...
+2025-09-01 10:49:54 | INFO | Kafka broker address: localhost:9092
+2025-09-01 10:49:55 | ERROR | Error managing retention for topic 'buzzline': list indices must be integers or slices, not ConfigResource
+2025-09-01 10:49:55 | INFO | Kafka topic 'buzzline' is ready.
+2025-09-01 10:49:55 | INFO | Starting dungeon crawl message production to topic 'buzzline'...
+2025-09-01 10:49:55 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:49:55Z", "event": "MOVE", "room": 1, "direction": "E"}
+2025-09-01 10:49:55 | INFO | Sent message to topic 'buzzline': MOVE
+2025-09-01 10:49:55 | INFO | [unknown] event:MOVE room:1 hp:100% gold:0 xp:0 alerts:0
+2025-09-01 10:49:56 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:49:56Z", "event": "TRAP", "trap": "Falling Rock", "damage": 9}
+2025-09-01 10:49:56 | INFO | Sent message to topic 'buzzline': TRAP
+2025-09-01 10:49:56 | INFO | [unknown] event:TRAP room:1 hp:100% gold:0 xp:0 alerts:0
+2025-09-01 10:49:57 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:49:57Z", "event": "TRAP", "trap": "Falling Rock", "damage": 6}
+2025-09-01 10:49:57 | INFO | Sent message to topic 'buzzline': TRAP
+2025-09-01 10:49:57 | INFO | [unknown] event:TRAP room:1 hp:100% gold:0 xp:0 alerts:0
+2025-09-01 10:49:58 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:49:58Z", "event": "MOVE", "room": 2, "direction": "W"}
+2025-09-01 10:49:58 | INFO | Sent message to topic 'buzzline': MOVE
+2025-09-01 10:49:58 | INFO | [unknown] event:MOVE room:2 hp:100% gold:0 xp:0 alerts:0
+2025-09-01 10:49:59 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:49:59Z", "event": "MOVE", "room": 3, "direction": "W"}
+2025-09-01 10:49:59 | INFO | Sent message to topic 'buzzline': MOVE
+2025-09-01 10:49:59 | INFO | [unknown] event:MOVE room:3 hp:100% gold:0 xp:0 alerts:0
+2025-09-01 10:50:00 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:00Z", "event": "LOOT", "item": "Ancient Relic", "gold": 7}
+2025-09-01 10:50:00 | INFO | Sent message to topic 'buzzline': LOOT
+2025-09-01 10:50:00 | INFO | [unknown] event:LOOT room:3 hp:100% gold:7 xp:0 alerts:0
+2025-09-01 10:50:01 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:01Z", "event": "ENCOUNTER", "enemy": "Mimic", "damage": 9}
+2025-09-01 10:50:01 | INFO | Sent message to topic 'buzzline': ENCOUNTER
+2025-09-01 10:50:01 | INFO | [unknown] event:ENCOUNTER room:3 hp:100% gold:7 xp:0 alerts:0
+2025-09-01 10:50:02 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:02Z", "event": "TRAP", "trap": "Spikes", "damage": 7}
+2025-09-01 10:50:02 | INFO | Sent message to topic 'buzzline': TRAP
+2025-09-01 10:50:02 | INFO | [unknown] event:TRAP room:3 hp:100% gold:7 xp:0 alerts:0
+2025-09-01 10:50:03 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:03Z", "event": "MOVE", "room": 4, "direction": "N"}
+2025-09-01 10:50:03 | INFO | Sent message to topic 'buzzline': MOVE
+2025-09-01 10:50:03 | INFO | [unknown] event:MOVE room:4 hp:100% gold:7 xp:0 alerts:0
+2025-09-01 10:50:04 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:04Z", "event": "ENCOUNTER", "enemy": "Bat", "damage": 18}
+2025-09-01 10:50:04 | INFO | Sent message to topic 'buzzline': ENCOUNTER
+2025-09-01 10:50:04 | INFO | [unknown] event:ENCOUNTER room:4 hp:100% gold:7 xp:0 alerts:0
+2025-09-01 10:50:05 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:05Z", "event": "TRAP", "trap": "Falling Rock", "damage": 8}
+2025-09-01 10:50:05 | INFO | Sent message to topic 'buzzline': TRAP
+2025-09-01 10:50:05 | INFO | [unknown] event:TRAP room:4 hp:100% gold:7 xp:0 alerts:0
+2025-09-01 10:50:06 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:06Z", "event": "LOOT", "item": "Gem", "gold": 8}
+2025-09-01 10:50:06 | INFO | Sent message to topic 'buzzline': LOOT
+2025-09-01 10:50:06 | INFO | [unknown] event:LOOT room:4 hp:100% gold:8 xp:0 alerts:0
+2025-09-01 10:50:07 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:07Z", "event": "LOOT", "item": "Ancient Relic", "gold": 13}
+2025-09-01 10:50:07 | INFO | Sent message to topic 'buzzline': LOOT
+2025-09-01 10:50:07 | INFO | [unknown] event:LOOT room:4 hp:100% gold:13 xp:0 alerts:0
+2025-09-01 10:50:08 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:08Z", "event": "TRAP", "trap": "Falling Rock", "damage": 6}
+2025-09-01 10:50:08 | INFO | Sent message to topic 'buzzline': TRAP
+2025-09-01 10:50:08 | INFO | [unknown] event:TRAP room:4 hp:100% gold:13 xp:0 alerts:0
+2025-09-01 10:50:09 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:09Z", "event": "ENCOUNTER", "enemy": "Mimic", "damage": 15}
+2025-09-01 10:50:09 | INFO | Sent message to topic 'buzzline': ENCOUNTER
+2025-09-01 10:50:09 | INFO | [unknown] event:ENCOUNTER room:4 hp:100% gold:13 xp:0 alerts:0
+2025-09-01 10:50:10 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:10Z", "event": "MOVE", "room": 5, "direction": "N"}
+2025-09-01 10:50:10 | INFO | Sent message to topic 'buzzline': MOVE
+2025-09-01 10:50:10 | INFO | [unknown] event:MOVE room:5 hp:100% gold:13 xp:0 alerts:0
+2025-09-01 10:50:11 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:11Z", "event": "ENCOUNTER", "enemy": "Skeleton", "damage": 11}
+2025-09-01 10:50:11 | INFO | Sent message to topic 'buzzline': ENCOUNTER
+2025-09-01 10:50:11 | INFO | [unknown] event:ENCOUNTER room:5 hp:100% gold:13 xp:0 alerts:0
+2025-09-01 10:50:12 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:12Z", "event": "LOOT", "item": "Silver Coin", "gold": 16}
+2025-09-01 10:50:12 | INFO | Sent message to topic 'buzzline': LOOT
+2025-09-01 10:50:12 | INFO | [unknown] event:LOOT room:5 hp:100% gold:16 xp:0 alerts:0
+2025-09-01 10:50:13 | INFO | Generated dungeon event: {"ts": "2025-09-01T15:50:13Z", "event": "LOOT", "item": "Potion", "gold": 39}
+2025-09-01 10:50:13 | INFO | Sent message to topic 'buzzline': LOOT
+2025-09-01 10:50:13 | INFO | [unknown] event:LOOT room:5 hp:100% gold:39 xp:0 alerts:0
+2025-09-01 10:50:13 | WARNING | Producer interrupted by user.
+2025-09-01 10:50:13 | INFO | Kafka producer closed.
+2025-09-01 10:50:13 | INFO | END producer.
+2025-09-01 10:51:31 | WARNING | Consumer interrupted by user.
+2025-09-01 10:51:31 | INFO | Kafka consumer for topic 'buzzline' closed.
+2025-09-01 10:51:31 | INFO | END consumer for topic 'buzzline' and group 'schroder_group'.
