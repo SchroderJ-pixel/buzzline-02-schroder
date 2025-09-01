@@ -1,44 +1,40 @@
-# buzzline-02-case
+# buzzline-02-schroder  
 
-Streaming data is often too big for any one machine. Apache Kafka is a popular streaming platform that uses publish-subscribe patterns:
+**Course:** Streaming Data – Module 2  
+**Date:** September 1, 2025  
+**Author:** Justin Schroder  
+**GitHub:** [SchroderJ-pixel](https://github.com/SchroderJ-pixel) 
 
-- **Producers** publish streaming data to topics
-- **Consumers** subscribe to topics to process data in real-time
+---
 
-We'll write Python producers and consumers to work with Kafka topics.
+## Overview  
 
-Kafka needs space - it's big. 
+Streaming data is often too big for a single machine.  
+Apache Kafka is a popular streaming platform that uses a publish–subscribe model:  
 
-It also comes from the Linux world. We'll use WSL on Windows machines.
+- **Producers** publish streaming data to topics  
+- **Consumers** subscribe to topics and process the data in real time  
 
-## Copy This Example Project & Rename
+In this project, I built a **dungeon crawler producer** and a matching **consumer** to simulate real-time game events.  
 
-1. Copy/fork this project into your GitHub account and create your own version of this project to run and experiment with.
-2. Name it `buzzline-02-yourname` where yourname is something unique to you.
+---
 
-## Task 1. Install and Start Kafka (using WSL if Windows)
+## Task 1. Install and Start Kafka (WSL on Windows)  
 
-Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> first.
-Python 3.11 is required.
+Before starting, complete the setup steps in [buzzline-01-case](https://github.com/denisecase/buzzline-01-case).  
+Python 3.11 is required.  
 
-In this task, we will download, install, configure, and start a local Kafka service.
+1. Install **Windows Subsystem for Linux (WSL)**  
+2. Install the **Kafka streaming platform**  
+3. Start the **Kafka service** (leave that terminal open)  
 
-1. Install Windows Subsystem for Linux (Windows machines only)
-2. Install Kafka Streaming Platform
-3. Start the Kafka service (leave the terminal open).
+Detailed instructions: [SETUP_KAFKA](SETUP_KAFKA.md)  
 
-For detailed instructions, see:
+---
 
-- [SETUP_KAFKA](SETUP_KAFKA.md)
+## Task 2. Manage Local Virtual Environment  
 
-## Task 2. Manage Local Project Virtual Environment
-
-Open your project in VS Code and use the commands for your operating system to:
-
-1. Create a Python virtual environment
-2. Activate the virtual environment
-3. Upgrade pip
-4. Install from requirements.txt
+From the project root folder in VS Code, create and activate your virtual environment. 
 
 ### Windows
 
@@ -63,46 +59,53 @@ python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade -r requirements.txt
 ```
 
-## Task 3. Start a Kafka Producer
+## Task 3. Start a Kafka Producer  
 
-Producers generate streaming data for our topics.
+Producers generate streaming data for our topics.  
 
-In VS Code, open a terminal.
-Use the commands below to activate .venv, and start the producer.
+### Windows  
 
-Windows:
-
-```shell
-.venv\Scripts\activate
-py -m producers.kafka_producer_case
+```bash
+.venv\Scripts\activate  
+py -m producers.kafka_producer_schroder  
 ```
 
-Mac/Linux:
-
-```zsh
-source .venv/bin/activate
-python3 -m producers.kafka_producer_case
+### Mac/Linux  
+```
+source .venv/bin/activate  
+python3 -m producers.kafka_producer_schroder  
 ```
 
-## Task 4. Start a Kafka Consumer
+---
 
-Consumers process data from topics or logs in real time.
+## Task 4. Start a Kafka Consumer  
 
-In VS Code, open a NEW terminal in your root project folder.
-Use the commands below to activate .venv, and start the consumer.
+Consumers process data from topics or logs in real time.  
 
-Windows:
+In VS Code, open a NEW terminal in your root project folder.  
 
-```shell
-.venv\Scripts\activate
-py -m consumers.kafka_consumer_case
+### Windows  
+
+```bash
+.venv\Scripts\activate  
+py -m consumers.kafka_consumer_schroder  
 ```
 
-Mac/Linux:
+### Mac/Linux  
 
-```zsh
-source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
+```
+source .venv/bin/activate  
+python3 -m consumers.kafka_consumer_schroder  
+```
+
+---
+
+## Example Output  
+```
+event: MOVE room:1 hp:100% gold:0 xp:0  
+event: TRAP room:1 hp:100% gold:0 xp:0  
+event: LOOT room:3 hp:100% gold:7 xp:0  
+event: ENCOUNTER room:4 hp:100% gold:13 xp:0  
 ```
 
 ## Later Work Sessions
